@@ -1,30 +1,57 @@
 ﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
     <SolidColorBrush x:Key="yellow-tint" Color="#ffc457" />
     <SolidColorBrush x:Key="yellow" Color="#ffc375" />
-    <SolidColorBrush x:Key="yellow-shade" Color="#ffc375" />
-    <SolidColorBrush x:Key="yellow-shadow" Color="#ffc375" />
+    <SolidColorBrush x:Key="yellow-shade" Color="#ff9564" />
+    <SolidColorBrush
+        x:Key="yellow-shadow"
+        Opacity="0.5"
+        Color="#ff9564" />
 
-    <SolidColorBrush x:Key="cyan-tint" Color="#ffc375" />
-    <SolidColorBrush x:Key="cyan" Color="#ffc375" />
-    <SolidColorBrush x:Key="cyan-shade" Color="#ffc375" />
+    <SolidColorBrush x:Key="cyan-tint" Color="#00cfc5" />
+    <SolidColorBrush x:Key="cyan" Color="#67c8e4" />
+    <SolidColorBrush x:Key="cyan-shade" Color="#0383be" />
 
-    <SolidColorBrush x:Key="dark-tint" Color="#ffc375" />
-    <SolidColorBrush x:Key="dark" Color="#ffc375" />
-    <SolidColorBrush x:Key="dark-shade" Color="#ffc375" />
+    <SolidColorBrush x:Key="dark-tint" Color="#434c5e" />
+    <SolidColorBrush x:Key="dark" Color="#3b4252" />
+    <SolidColorBrush x:Key="dark-shade" Color="#2e3440" />
 
-    <SolidColorBrush x:Key="light-tint" Color="#ffc375" />
-    <SolidColorBrush x:Key="light" Color="#ffc375" />
-    <SolidColorBrush x:Key="light-shade" Color="#ffc375" />
+    <SolidColorBrush x:Key="light-tint" Color="#f6f6f8" />
+    <SolidColorBrush x:Key="light" Color="#eceff4" />
+    <SolidColorBrush x:Key="light-shade" Color="#d8dee9" />
 
-    <SolidColorBrush x:Key="darker" Color="#ffc375" />
-    <SolidColorBrush x:Key="darker-1" Color="#ffc375" />
-    <SolidColorBrush x:Key="darker-2" Color="#ffc375" />
-    <SolidColorBrush x:Key="darker-3" Color="#ffc375" />
+    <SolidColorBrush
+        x:Key="darker"
+        Opacity="0.08"
+        Color="#0f1115" />
+    <SolidColorBrush
+        x:Key="darker-1"
+        Opacity="0.2"
+        Color="#0f1115" />
+    <SolidColorBrush
+        x:Key="darker-2"
+        Opacity="0.4"
+        Color="#0f1115" />
+    <SolidColorBrush
+        x:Key="darker-3"
+        Opacity="0.6"
+        Color="#0f1115" />
 
-    <SolidColorBrush x:Key="lighter" Color="#ffc375" />
-    <SolidColorBrush x:Key="lighter-1" Color="#ffc375" />
-    <SolidColorBrush x:Key="lighter-2" Color="#ffc375" />
-    <SolidColorBrush x:Key="lighter-3" Color="#ffc375" />
+    <SolidColorBrush
+        x:Key="lighter"
+        Opacity="0.2"
+        Color="#b8c2d7" />
+    <SolidColorBrush
+        x:Key="lighter-1"
+        Opacity="0.3"
+        Color="#b8c2d7" />
+    <SolidColorBrush
+        x:Key="lighter-2"
+        Opacity="0.4"
+        Color="#b8c2d7" />
+    <SolidColorBrush
+        x:Key="lighter-3"
+        Opacity="0.6"
+        Color="#b8c2d7" />
 
     <FontFamily x:Key="base-font">/_000_template;Component/Fonts/#Rajdhani</FontFamily>
 </ResourceDictionary>
