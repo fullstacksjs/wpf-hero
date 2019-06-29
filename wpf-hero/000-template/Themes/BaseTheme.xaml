@@ -28,11 +28,10 @@
         Opacity="0.2"
         Color="#0f1115" />
     <Color
-        x:Key="darker-1-color"
+        x:Key="darker-color"
         B="21"
         G="17"
         R="15" />
-
     <SolidColorBrush
         x:Key="darker-2"
         Opacity="0.4"
@@ -59,5 +58,6 @@
         Opacity="0.6"
         Color="#b8c2d7" />
 
-    <FontFamily x:Key="base-font">/_000_template;Component/Fonts/#Rajdhani</FontFamily>
+
+    <FontFamily x:Key="base-font">/000-template;component/Fonts/#Rajdhani</FontFamily>
 </ResourceDictionary>

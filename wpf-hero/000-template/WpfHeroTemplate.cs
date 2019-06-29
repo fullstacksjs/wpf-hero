@@ -1,9 +1,12 @@
 ﻿using System;
+using System.ComponentModel;
 using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Markup;
 
 namespace _000_template
 {
+    [ContentProperty("Content")]
     public class WpfHeroTemplate : Control
     {
         private static readonly Type TypeofThis = typeof(WpfHeroTemplate);
@@ -15,6 +18,30 @@ namespace _000_template
                 new FrameworkPropertyMetadata(TypeofThis)
             );
         }
+
+        /// <summary>
+        /// Set or get the content object that was set in the
+        /// tags of the Expander ui-element.
+        /// 
+        /// <para>Designer Category: <c>Common</c>.</para>
+        /// </summary>
+        [Category("Common")]
+        public object Content
+        {
+            get => GetValue(ContentProperty);
+            set => SetValue(ContentProperty, value);
+        }
+
+        /// <summary>
+        /// Identifies the <see cref="Content"/> dependency property.
+        /// </summary>
+        public static readonly DependencyProperty ContentProperty =
+            DependencyProperty.Register(
+                nameof(Content),
+                typeof(object),
+                TypeofThis,
+                null
+            );
 
         /// <summary>
         /// Set or get the width of the base container in

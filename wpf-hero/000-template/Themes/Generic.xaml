@@ -10,19 +10,50 @@
                         <Border
                             Width="{TemplateBinding ContainerWidth}"
                             Height="{TemplateBinding ContainerHeight}"
-                            Padding="40,100,40,40"
                             HorizontalAlignment="Center"
                             VerticalAlignment="Center"
                             Background="{DynamicResource light}">
                             <Border.Effect>
                                 <DropShadowEffect
-                                    BlurRadius="40"
-                                    Direction="0"
-                                    Opacity="0.2"
-                                    RenderingBias="Quality"
+                                    BlurRadius="10"
+                                    Direction="269"
+                                    Opacity="0.4"
                                     ShadowDepth="1"
-                                    Color="{DynamicResource darker-1-color}" />
+                                    Color="{DynamicResource darker-color}" />
                             </Border.Effect>
+                            <Grid Margin="0,20,0,0">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto" />
+                                    <RowDefinition Height="Auto" />
+                                    <RowDefinition Height="Auto" />
+                                    <RowDefinition />
+                                </Grid.RowDefinitions>
+                                <TextBlock
+                                    Grid.Row="0"
+                                    HorizontalAlignment="Center"
+                                    FontFamily="{DynamicResource base-font}"
+                                    FontSize="32"
+                                    FontWeight="Medium"
+                                    Foreground="{DynamicResource dark}"
+                                    Text="Fullstacks" />
+                                <TextBlock
+                                    Grid.Row="1"
+                                    HorizontalAlignment="Center"
+                                    FontFamily="{DynamicResource base-font}"
+                                    FontSize="24"
+                                    FontWeight="Normal"
+                                    Foreground="{DynamicResource dark}"
+                                    Opacity="0.6"
+                                    Text="Template" />
+                                <Rectangle
+                                    Grid.Row="2"
+                                    Width="120"
+                                    Height="1"
+                                    Margin="0,5,0,0"
+                                    Fill="{DynamicResource dark}"
+                                    Opacity="0.4" />
+                                <ContentPresenter Grid.Row="3" Margin="40,10,40,40" />
+                            </Grid>
                         </Border>
                     </Border>
                 </ControlTemplate>
