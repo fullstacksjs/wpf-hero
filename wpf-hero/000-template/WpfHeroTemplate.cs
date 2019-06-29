@@ -6,6 +6,21 @@ using System.Windows.Markup;
 
 namespace _000_template
 {
+    /// <summary>
+    /// Base class for <c>000-template project</c>.
+    /// <para/>
+    /// This class contains the basic logic for simplified
+    /// creating the <c>challenges projects</c>.
+    /// <para/>
+    /// This class is inherited from the <see cref="Control"/> class.
+    /// <para/>
+    /// This <c>Expander ui-element</c> is not affiliated with
+    /// the any Design guidelines!
+    /// <para/>
+    /// This ui-element was created in accordance with
+    /// one of the projects full-stacks github organization:
+    /// https://github.com/full-stacks/css-hero.
+    /// </summary>
     [ContentProperty("Content")]
     public class WpfHeroTemplate : Control
     {

@@ -23,15 +23,15 @@
         x:Key="darker"
         Opacity="0.08"
         Color="#0f1115" />
-    <SolidColorBrush
-        x:Key="darker-1"
-        Opacity="0.2"
-        Color="#0f1115" />
     <Color
         x:Key="darker-color"
         B="21"
         G="17"
         R="15" />
+    <SolidColorBrush
+        x:Key="darker-1"
+        Opacity="0.2"
+        Color="#0f1115" />
     <SolidColorBrush
         x:Key="darker-2"
         Opacity="0.4"
