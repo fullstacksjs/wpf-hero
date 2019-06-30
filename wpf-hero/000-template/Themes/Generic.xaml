@@ -40,6 +40,7 @@
                                     FontSize="32"
                                     FontWeight="Medium"
                                     Foreground="{DynamicResource hero-header-fill}"
+                                    IsHitTestVisible="False"
                                     Text="Fullstacks" />
                                 <TextBlock
                                     Grid.Row="1"
@@ -48,13 +49,15 @@
                                     FontSize="24"
                                     FontWeight="Normal"
                                     Foreground="{DynamicResource hero-subheader-fill}"
+                                    IsHitTestVisible="False"
                                     Text="Template" />
                                 <Rectangle
                                     Grid.Row="2"
                                     Width="120"
                                     Height="1"
                                     Margin="0,5,0,0"
-                                    Fill="{DynamicResource hero-subheader-fill}" />
+                                    Fill="{DynamicResource hero-subheader-fill}"
+                                    IsHitTestVisible="False" />
                                 <ContentPresenter Grid.Row="3" Margin="40,10,40,40" />
                             </Grid>
                         </Border>
