@@ -17,4 +17,4 @@ Currently under **development**. Maintainer: `Pavel Erokhin (MairwunNx)`
 
 ###### 000-template:
 
-!["000-template result"](images/000-tempale.jpg "000-template result")
+!["000-template result"](images/000-template.jpg "000-template result")
