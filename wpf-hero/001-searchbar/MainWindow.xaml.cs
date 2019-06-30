@@ -1,6 +1,4 @@
-﻿using System.Windows;
-
-namespace _001_searchbar
+﻿namespace _001_searchbar
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml

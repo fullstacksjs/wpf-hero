@@ -1,0 +1,12 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <SolidColorBrush x:Key="hero-yellow-tint" Color="#ffc457" />
+    <SolidColorBrush x:Key="hero-yellow" Color="#ffc375" />
+    <SolidColorBrush x:Key="hero-yellow-shade" Color="#ff9564" />
+    <SolidColorBrush
+        x:Key="hero-yellow-shadow"
+        Opacity="0.5"
+        Color="#ff9564" />
+    <SolidColorBrush x:Key="hero-cyan-tint" Color="#00cfc5" />
+    <SolidColorBrush x:Key="hero-cyan" Color="#67c8e4" />
+    <SolidColorBrush x:Key="hero-cyan-shade" Color="#0383be" />
+</ResourceDictionary>

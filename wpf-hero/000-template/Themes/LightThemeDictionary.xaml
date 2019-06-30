@@ -1,0 +1,11 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <SolidColorBrush x:Key="hero-base-background" Color="#d8dee9" />
+    <SolidColorBrush x:Key="hero-card-background" Color="#eceff4" />
+    <Color
+        x:Key="hero-card-shadow"
+        B="208"
+        G="207"
+        R="207" />
+    <SolidColorBrush x:Key="hero-header-fill" Color="#3b4252" />
+    <SolidColorBrush x:Key="hero-subheader-fill" Color="#767b86" />
+</ResourceDictionary>
