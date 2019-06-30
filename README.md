@@ -6,7 +6,7 @@ Some of the challenges may be interesting when implemented on this platform.
 
 The activity of this repository is completely dependent on the css-hero repository, if it is abandoned, this one is similar.
 
-Currently under **development**. Accompanist: `Pavel Erokhin (MairwunNx)`
+Currently under **development**. Maintainer: `Pavel Erokhin (MairwunNx)`
 
 | Project | Implementation status |
 | --- | --- |
