@@ -13,8 +13,6 @@
     MinHeight="500"
     mc:Ignorable="d">
     <Grid>
-        <template:WpfHeroTemplate ContainerHeight="400">
-            <Grid Background="#FFCBCBCB" />
-        </template:WpfHeroTemplate>
+        <template:WpfHeroTemplate ContainerHeight="400" />
     </Grid>
 </Window>
