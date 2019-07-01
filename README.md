@@ -8,10 +8,10 @@ The activity of this repository is completely dependent on the css-hero reposito
 
 Currently under **development**. Maintainer: `Pavel Erokhin (MairwunNx)`
 
-| Project | Implementation status |
-| --- | --- |
-| `000-template` | Implementation done |
-| `001-searchbar` | Implementation in progress |
+| Project | Implementation status | Demo Implementation status |
+| --- | --- | --- |
+| `000-template` | Implementation done | Implementation done |
+| `001-searchbar` | Implementation in progress | Implementation in progress |
 
 #### Screenshots of results:
 
