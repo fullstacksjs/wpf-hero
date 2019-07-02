@@ -6,7 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace _001_searchbar
+namespace _001_searchbar_demo
 {
     /// <summary>
     /// Interaction logic for App.xaml
