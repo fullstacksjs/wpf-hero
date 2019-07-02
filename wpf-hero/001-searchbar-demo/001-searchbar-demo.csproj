@@ -7,7 +7,7 @@
     <ProjectGuid>{2E2423B2-A13B-4199-B473-69ACEDA6C1EA}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>_001_searchbar_demo</RootNamespace>
-    <AssemblyName>_001_searchbar_demo</AssemblyName>
+    <AssemblyName>001-searchbar-demo</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -53,6 +53,7 @@
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">
       <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -92,6 +93,16 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\000-template\000-template.csproj">
+      <Project>{2f080bd3-c138-4ab8-8ce6-2e4c5406b044}</Project>
+      <Name>000-template</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\001-searchbar\001-searchbar.csproj">
+      <Project>{d0890e66-7a36-415d-beb5-cab7d247fa65}</Project>
+      <Name>001-searchbar</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

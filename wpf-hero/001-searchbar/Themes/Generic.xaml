@@ -2,15 +2,20 @@
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="clr-namespace:_001_searchbar">
-    <Style TargetType="{x:Type local:CustomControl1}">
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="/000-template;component/Themes/CommonThemeDictionary.xaml" />
+        <ResourceDictionary Source="/000-template;component/Themes/CommonFontDictionary.xaml" />
+        <ResourceDictionary Source="/000-template;component/Themes/LightThemeDictionary.xaml" />
+        <ResourceDictionary Source="/000-template;component/Themes/DarkThemeDictionary.xaml" />
+    </ResourceDictionary.MergedDictionaries>
+    <Style TargetType="{x:Type local:WpfHeroSearchBar}">
         <Setter Property="Template">
             <Setter.Value>
-                <ControlTemplate TargetType="{x:Type local:CustomControl1}">
-                    <Border Background="{TemplateBinding Background}"
-                            BorderBrush="{TemplateBinding BorderBrush}"
-                            BorderThickness="{TemplateBinding BorderThickness}">
-
-                    </Border>
+                <ControlTemplate TargetType="{x:Type local:WpfHeroSearchBar}">
+                    <Border
+                        Background="{TemplateBinding Background}"
+                        BorderBrush="{TemplateBinding BorderBrush}"
+                        BorderThickness="{TemplateBinding BorderThickness}" />
                 </ControlTemplate>
             </Setter.Value>
         </Setter>

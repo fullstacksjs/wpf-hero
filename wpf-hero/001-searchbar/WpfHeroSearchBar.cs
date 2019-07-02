@@ -44,11 +44,11 @@ namespace _001_searchbar
     ///     <MyNamespace:CustomControl1/>
     ///
     /// </summary>
-    public class CustomControl1 : Control
+    public class WpfHeroSearchBar : Control
     {
-        static CustomControl1()
+        static WpfHeroSearchBar()
         {
-            DefaultStyleKeyProperty.OverrideMetadata(typeof(CustomControl1), new FrameworkPropertyMetadata(typeof(CustomControl1)));
+            DefaultStyleKeyProperty.OverrideMetadata(typeof(WpfHeroSearchBar), new FrameworkPropertyMetadata(typeof(WpfHeroSearchBar)));
         }
     }
 }
