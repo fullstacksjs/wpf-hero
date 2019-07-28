@@ -18,7 +18,7 @@
                             Height="{TemplateBinding ContainerHeight}"
                             HorizontalAlignment="Center"
                             VerticalAlignment="Center"
-                            Background="{DynamicResource hero-card-background}">
+                            Background="{TemplateBinding BackgroundFillColor}">
                             <Border.Effect>
                                 <DropShadowEffect
                                     BlurRadius="10"

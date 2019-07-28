@@ -10,7 +10,6 @@
                 <ResourceDictionary Source="pack://application:,,,/000-template;component/Themes/CommonFontDictionary.xaml" />
                 <ResourceDictionary Source="pack://application:,,,/000-template;component/Themes/LightThemeDictionary.xaml" />
             </ResourceDictionary.MergedDictionaries>
-            <SolidColorBrush x:Key="hero-card-background" Color="#ffc375" />
         </ResourceDictionary>
     </Application.Resources>
 </Application>

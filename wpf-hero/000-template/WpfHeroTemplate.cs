@@ -3,6 +3,7 @@ using System.ComponentModel;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Markup;
+using System.Windows.Media;
 
 namespace _000_template
 {
@@ -98,6 +99,20 @@ namespace _000_template
                 typeof(double),
                 TypeofThis,
                 new PropertyMetadata(400.0D)
+            );
+
+        public Brush BackgroundFillColor
+        {
+            get => GetValue(BackgroundFillColorProperty) as Brush;
+            set => SetValue(BackgroundFillColorProperty, value);
+        }
+
+        public static readonly DependencyProperty BackgroundFillColorProperty =
+            DependencyProperty.Register(
+                nameof(BackgroundFillColor),
+                typeof(Brush),
+                TypeofThis,
+                new PropertyMetadata(Application.Current.Resources["hero-card-background"])
             );
     }
 }

@@ -13,9 +13,12 @@
             <Setter.Value>
                 <ControlTemplate TargetType="{x:Type local:WpfHeroSearchBar}">
                     <Border
-                        Background="{TemplateBinding Background}"
+                        Background="{DynamicResource hero-card-background}"
                         BorderBrush="{TemplateBinding BorderBrush}"
-                        BorderThickness="{TemplateBinding BorderThickness}" />
+                        BorderThickness="{TemplateBinding BorderThickness}"
+                        ToolTip="Please fill out this fill.">
+                        <Grid Background="{DynamicResource hero-card-background}" />
+                    </Border>
                 </ControlTemplate>
             </Setter.Value>
         </Setter>
